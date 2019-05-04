@@ -5,23 +5,11 @@ html {
     padding: 0;
 }
 
-.father {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    height: 100%;
-    flex-direction: column-reverse;
-    flex-wrap: wrap-re;
-}
-
 .box {
     background-color: red;
-    width: 200px;
-    height: 200px;
-    margin: 1px;
-    border: 1px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
+    font-size: 40px;
+}
+
+.box:focus {
+    background-color: gray;
 }
