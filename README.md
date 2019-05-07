@@ -1,1 +1,1 @@
-# kako-clone
+# kakao-clone
