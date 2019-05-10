@@ -4,6 +4,8 @@
 @import "header.css";
 @import "nav-bar.css";
 @import "friend.css";
+@import "friends-screen.css";
+@import "find-screen.css";
 
 * {
     /* padding을 추가해도 박스의 사이즈에는 영향이 없게 함. */
