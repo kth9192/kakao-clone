@@ -1,11 +1,13 @@
 @import "reset.css";
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300:400,600');
 @import "status-bar.css";
 @import "header.css";
 @import "nav-bar.css";
 @import "friend.css";
 @import "friends-screen.css";
 @import "find-screen.css";
+@import "more-screen.css";
+@import "setting-screen.css";
 
 * {
     /* padding을 추가해도 박스의 사이즈에는 영향이 없게 함. */
