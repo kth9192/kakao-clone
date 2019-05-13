@@ -8,6 +8,7 @@
 @import "find-screen.css";
 @import "more-screen.css";
 @import "setting-screen.css";
+@import "chat-screen.css";
 
 * {
     /* padding을 추가해도 박스의 사이즈에는 영향이 없게 함. */
