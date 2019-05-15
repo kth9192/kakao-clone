@@ -9,6 +9,7 @@
 @import "more-screen.css";
 @import "setting-screen.css";
 @import "chat-screen.css";
+@import "mobile.css";
 
 * {
     /* padding을 추가해도 박스의 사이즈에는 영향이 없게 함. */
@@ -26,4 +27,20 @@ body {
 a {
     color: inherit;
     text-decoration: none;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+main {
+    animation: fadeIn 0.5s ease-in-out;
 }
